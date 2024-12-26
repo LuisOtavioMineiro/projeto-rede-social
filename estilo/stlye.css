@@ -17,12 +17,25 @@ main {
     position: relative;
     height: 100vh;
 }
-#telefone {
+section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    height: 425px;
+    width: 211px;
+    background: url('../imagens/frame-iphone.png') no-repeat;
+    background-size: cover;
+
     height: 627px;
     width: 311px;
     background:  url('../imagens/frame-iphone.png') no-repeat;
+}
+iframe#tela {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -49.5%);
+    width: 264px;
+    height: 470px;
 }
